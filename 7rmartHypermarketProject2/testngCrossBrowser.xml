@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Suite">
+	<test thread-count="5" name="Chrome Test">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<groups>
+			<run>
+				<!--<include name="sanity"></include>
+				<include name="smoke"></include>-->
+				<exclude name="regression"></exclude>
+
+			</run>
+		</groups>
+		<classes>
+			<class name="testCases.LoginPageTestCases" />
+			<class name="testCases.HomePageTestCases" />
+			<class name="testCases.ListsProductTestCases" />
+			<class name="testCases.ListsSliderTestCases" />
+			<class name="testCases.CategoryTestCases" />
+			<class name="testCases.ManageExpensesTestCases" />
+			<class name="testCases.ManageOrdersTestCases" />
+			<class name="testCases.PaymentMethodTestCases" />
+		</classes>
+	</test>
+	<test name="Edge Test">
+		<parameter name="Browser" value="Edge"></parameter>
+		<groups>
+			<run>
+				<!--<include name="sanity"></include>
+				<include name="smoke"></include>-->
+				<exclude name="regression"></exclude>
+
+			</run>
+		</groups>
+		<classes>
+			<class name="testCases.LoginPageTestCases" />
+			<class name="testCases.HomePageTestCases" />
+			<class name="testCases.ListsProductTestCases" />
+			<class name="testCases.ListsSliderTestCases" />
+			<class name="testCases.CategoryTestCases" />
+			<class name="testCases.ManageExpensesTestCases" />
+			<class name="testCases.ManageOrdersTestCases" />
+			<class name="testCases.PaymentMethodTestCases" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

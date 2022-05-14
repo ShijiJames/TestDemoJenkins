@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="27" total="30" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32429" started-at="2022-05-13T22:18:46 EDT" finished-at="2022-05-13T22:19:18 EDT">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTestCases.verifyAllLinksInHomePage()[pri:0, instance:testCases.HomePageTestCases@67b467e9]" name="verifyAllLinksInHomePage" class="testCases.HomePageTestCases"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="ListsProductTestCases.isNonVegRadiobtnClicked()[pri:0, instance:testCases.ListsProductTestCases@47db50c5]" name="isNonVegRadiobtnClicked" class="testCases.ListsProductTestCases"/>
+        <method signature="ManageExpensesTestCases.verifyDuplicationOfExpenseCategory()[pri:0, instance:testCases.ManageExpensesTestCases@954b04f]" name="verifyDuplicationOfExpenseCategory" class="testCases.ManageExpensesTestCases"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="32429" started-at="2022-05-13T22:18:46 EDT" finished-at="2022-05-13T22:19:18 EDT">
+      <class name="testCases.HomePageTestCases">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.HomePageTestCases@67b467e9]" name="beforeMethod" is-config="true" duration-ms="6885" started-at="2022-05-13T22:18:46 EDT" finished-at="2022-05-13T22:18:53 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAllLinksInHomePage()[pri:0, instance:testCases.HomePageTestCases@67b467e9]" name="verifyAllLinksInHomePage" duration-ms="5836" started-at="2022-05-13T22:18:53 EDT" finished-at="2022-05-13T22:18:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllLinksInHomePage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTestCases@67b467e9]" name="afterMethod" is-config="true" duration-ms="724" started-at="2022-05-13T22:18:59 EDT" finished-at="2022-05-13T22:19:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllLinksInHomePage status=SUCCESS method=HomePageTestCases.verifyAllLinksInHomePage()[pri:0, instance:testCases.HomePageTestCases@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.HomePageTestCases -->
+      <class name="testCases.ListsProductTestCases">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ListsProductTestCases@47db50c5]" name="beforeMethod" is-config="true" duration-ms="3971" started-at="2022-05-13T22:19:00 EDT" finished-at="2022-05-13T22:19:04 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isNonVegRadiobtnClicked()[pri:0, instance:testCases.ListsProductTestCases@47db50c5]" name="isNonVegRadiobtnClicked" duration-ms="5142" started-at="2022-05-13T22:19:04 EDT" finished-at="2022-05-13T22:19:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNonVegRadiobtnClicked -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ListsProductTestCases@47db50c5]" name="afterMethod" is-config="true" duration-ms="734" started-at="2022-05-13T22:19:09 EDT" finished-at="2022-05-13T22:19:09 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isNonVegRadiobtnClicked status=SUCCESS method=ListsProductTestCases.isNonVegRadiobtnClicked()[pri:0, instance:testCases.ListsProductTestCases@47db50c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.ListsProductTestCases -->
+      <class name="testCases.ManageExpensesTestCases">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ManageExpensesTestCases@954b04f]" name="beforeMethod" is-config="true" duration-ms="3911" started-at="2022-05-13T22:19:09 EDT" finished-at="2022-05-13T22:19:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyDuplicationOfExpenseCategory()[pri:0, instance:testCases.ManageExpensesTestCases@954b04f]" name="verifyDuplicationOfExpenseCategory" duration-ms="4438" started-at="2022-05-13T22:19:13 EDT" finished-at="2022-05-13T22:19:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDuplicationOfExpenseCategory -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ManageExpensesTestCases@954b04f]" name="afterMethod" is-config="true" duration-ms="711" started-at="2022-05-13T22:19:18 EDT" finished-at="2022-05-13T22:19:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDuplicationOfExpenseCategory status=SUCCESS method=ManageExpensesTestCases.verifyDuplicationOfExpenseCategory()[pri:0, instance:testCases.ManageExpensesTestCases@954b04f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.ManageExpensesTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
